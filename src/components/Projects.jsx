@@ -17,6 +17,14 @@ const projects = [
     tech: "Python, Pandas, NumPy, Matplotlib & Seaborn, scikit-learn, NLTK",
     link: "https://github.com/thulasirahul/Sentiment-Analysis-of-Movie-Reviews-IMDB-NLP-Project",
     images: ["/proj/imdb/p1.png", "/proj/imdb/p2.png"]
+  },
+  {
+  id: 3,
+  title: "JobTracker Pro",
+  description: "An AI-powered job tracking platform with resume analysis, JD keyword matching, and interactive dashboard, built using React and Firebase.",
+  tech: "React, Tailwind CSS, Firebase, Framer Motion, PDF.js",
+  link: "https://github.com/thulasirahul/jobtracker-pro",
+  images: ["/proj/jobtracker/p1.png", "/proj/jobtracker/p2.png", "/proj/jobtracker/p3.png", "/proj/jobtracker/p4.png"]
   }
 ]
 

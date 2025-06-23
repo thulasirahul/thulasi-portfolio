@@ -25,7 +25,7 @@ const certs = [
   },
   {
     title: "Introduction to Data Science",
-    image: "/certificates/Introduction to Data Science.png"
+    image: "/certificates/IntroductiontoDataScience.png"
   },
   {
     title: "Introduction to MongoDB",
@@ -71,7 +71,7 @@ export default function Certifications() {
           </div>
         ))}
       </div>
-      <AnimatePresence>
+      <AnimatePresence mode="wait">
         {openCert && (
           <motion.div
             className="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm z-50 flex items-center justify-center p-4"
